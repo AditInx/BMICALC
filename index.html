@@ -14,12 +14,16 @@
         <div class="calcs">
             <label for="height">Height (cm):</label>
             <input type="text" id="height" class="hw" placeholder="Enter your height">
-            
+            <p id="height_error" style="color: red; font-size: 0.9rem;"></p> <!-- Height error -->
+
             <label for="weight">Weight (kg):</label>
             <input type="text" id="weight" class="hw" placeholder="Enter your weight">
-            
+            <p id="weight_error" style="color: red; font-size: 0.9rem;"></p> <!-- Weight error -->
+
             <button id="calculate">Calculate BMI</button>
+            <p id="output" style="margin-top: 20px; font-size: 1.2rem;"></p> <!-- Result -->
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
